@@ -44,5 +44,13 @@ public class SolutionTest {
         // Test case 10: Non-perfect number that is close to a perfect number 27
         int result10 = solution.solve(27);
         System.out.println("Test Case 10: Input: 27, Expected Output: 0, Actual Output: " + result10);
+
+        // Test case 10: Non-perfect number that is close to a perfect number 27
+        int result11 = solution.solve(60);
+        System.out.println("Test Case 10: Input: 60, Expected Output: 0, Actual Output: " + result11);
+
+        // Test case 10: Non-perfect number that is close to a perfect number 27
+        int result12 = solution.solve(77);
+        System.out.println("Test Case 10: Input: 60, Expected Output: 0, Actual Output: " + result12);
     }
 }
